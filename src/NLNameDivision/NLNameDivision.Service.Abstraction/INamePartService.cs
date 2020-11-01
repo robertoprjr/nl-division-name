@@ -6,6 +6,7 @@ namespace NLNameDivision.Service.Abstraction
     public interface INamePartService
     {
         List<string> ReportParticleList();
-        NameSlices SliceName(string nameToDivide);
+        NameSlices GetNameSliced(string nameToDivide);
+        NameParts GetNameParted(string nameToDivide);
     }
 }

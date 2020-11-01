@@ -21,7 +21,10 @@ namespace NLNameDivision.Service
         
         public List<string> ReportParticleList() => _namePartService.ReportParticleList();
 
-        public NameSlicesDto ReportNameSliced(string nameToDivide) => 
-            _mapper.Map<NameSlicesDto>(_namePartService.SliceName(nameToDivide));
+        public NameSlicesDto GetNameSliced(string nameToDivide) => 
+            _mapper.Map<NameSlicesDto>(_namePartService.GetNameSliced(nameToDivide));
+        
+        public NamePartsDto GetNameParted(string nameToDivide) => 
+            _mapper.Map<NamePartsDto>(_namePartService.GetNameParted(nameToDivide));
     }
 }

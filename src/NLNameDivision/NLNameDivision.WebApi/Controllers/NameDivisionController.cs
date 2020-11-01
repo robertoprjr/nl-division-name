@@ -18,16 +18,23 @@ namespace NLNameDivision.WebApi.Controllers
         
         [HttpGet]
         [Route("ParticleList")]
-        public ActionResult<IEnumerable<string>> GetParticleList()
+        public ActionResult<IEnumerable<string>> ReportParticleList()
         {
             return _nameDivisionService.ReportParticleList();
         }
 
         [HttpGet]
         [Route("SliceName/{nameToDivide}")]
-        public ActionResult<NameSlicesDto> SliceName(string nameToDivide)
+        public ActionResult<NameSlicesDto> GetNameSliced(string nameToDivide)
         {
-            return _nameDivisionService.ReportNameSliced(nameToDivide);
+            return _nameDivisionService.GetNameSliced(nameToDivide);
+        }
+
+        [HttpGet]
+        [Route("PartName/{nameToDivide}")]
+        public ActionResult<NamePartsDto> GetNameParted(string nameToDivide)
+        {
+            return _nameDivisionService.GetNameParted(nameToDivide);
         }
 
     }

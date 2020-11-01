@@ -2,7 +2,7 @@ using AutoMapper;
 using NLNameDivision.Entity.Struct;
 using NLNameDivision.Cross.DTO;
 
-namespace NLNameDivision.Service.MapperProfile
+namespace NLNameDivision.Cross.MapperProfile
 {
     public class NameSliceMapperProfile : Profile
     {

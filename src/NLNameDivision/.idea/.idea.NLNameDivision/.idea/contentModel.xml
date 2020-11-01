@@ -11,10 +11,14 @@
           <e p="ParticleConstant.cs" t="Include" />
         </e>
         <e p="DTO" t="Include">
+          <e p="NamePartDto.cs" t="Include" />
+          <e p="NamePartsDto.cs" t="Include" />
           <e p="NameSliceDto.cs" t="Include" />
           <e p="NameSlicesDto.cs" t="Include" />
         </e>
         <e p="MapperProfile" t="Include">
+          <e p="NamePartMapperProfile.cs" t="Include" />
+          <e p="NamePartsMapperProfile.cs" t="Include" />
           <e p="NameSliceMapperProfile.cs" t="Include" />
           <e p="NameSlicesMapperProfile.cs" t="Include" />
         </e>
@@ -30,9 +34,10 @@
       </e>
       <e p="NLNameDivision.Entity" t="IncludeRecursive">
         <e p="NLNameDivision.Entity.csproj" t="IncludeRecursive" />
-        <e p="NamePart.cs" t="Include" />
+        <e p="NameParts.cs" t="Include" />
         <e p="NameSlices.cs" t="Include" />
         <e p="Struct" t="Include">
+          <e p="NamePartStruct.cs" t="Include" />
           <e p="NameSliceStruct.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />

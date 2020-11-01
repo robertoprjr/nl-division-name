@@ -15,7 +15,7 @@ using Microsoft.Extensions.Options;
 using NLNameDivision.Cross.Constant;
 using NLNameDivision.Service.Abstraction;
 using NLNameDivision.Service;
-using NLNameDivision.Service.MapperProfile;
+using NLNameDivision.Cross.MapperProfile;
 
 namespace NLNameDivision.WebApi
 {
