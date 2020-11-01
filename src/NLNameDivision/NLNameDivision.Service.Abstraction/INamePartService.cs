@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using NLNameDivision.Cross.DTO;
+using NLNameDivision.Entity;
 
 namespace NLNameDivision.Service.Abstraction
 {
-    public interface INameDivisionService
+    public interface INamePartService
     {
         List<string> ReportParticleList();
-        NameSlicesDto ReportNameSliced(string nameToDivide) ;
+        NameSlices SliceName(string nameToDivide);
     }
 }

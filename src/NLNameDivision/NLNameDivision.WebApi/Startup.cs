@@ -35,14 +35,19 @@ namespace NLNameDivision.WebApi
             services.AddSwaggerGen();
             
             ConfigureBusinessServices(services);
+            ConfigureAutoMapper(services);
         }
         
         public void ConfigureBusinessServices(IServiceCollection services)
         {
             services.TryAddScoped<IDefaultService, DefaultService>();
             services.TryAddScoped<IParticleService, ParticleService>();
+            services.TryAddScoped<INamePartService, NamePartService>();
             services.TryAddScoped<INameDivisionService, NameDivisionService>();
+        }
 
+        public void ConfigureAutoMapper(IServiceCollection services)
+        {
             services.AddAutoMapper(typeof(NameSliceMapperProfile));
             services.AddAutoMapper(typeof(NameSlicesMapperProfile));
         }
