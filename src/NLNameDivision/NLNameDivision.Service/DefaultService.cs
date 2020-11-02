@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using NLNameDivision.Cross.Constant;
+using NLNameDivision.Constant;
 using NLNameDivision.Service.Abstraction;
 
 namespace NLNameDivision.Service

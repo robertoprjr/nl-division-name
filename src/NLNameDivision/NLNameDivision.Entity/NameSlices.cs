@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using NLNameDivision.Constant;
 using NLNameDivision.Entity.Struct;
 
 namespace NLNameDivision.Entity
@@ -11,7 +12,7 @@ namespace NLNameDivision.Entity
         
         public void Start()
         {
-            _currentSlice = 1;
+            _currentSlice = NameDivisionConstant.CounterStart;
             Slices = new List<NameSliceStruct>();
         }
 

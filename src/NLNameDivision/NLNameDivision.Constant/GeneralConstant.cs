@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NLNameDivision.Cross.Constant
+namespace NLNameDivision.Constant
 {
     public static class GeneralConstant
     {

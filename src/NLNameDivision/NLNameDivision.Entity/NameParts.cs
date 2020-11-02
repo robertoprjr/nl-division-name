@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using NLNameDivision.Constant;
 using NLNameDivision.Entity.Struct;
 
 namespace NLNameDivision.Entity
@@ -14,17 +15,22 @@ namespace NLNameDivision.Entity
 
         public void Start()
         {
-            _currentPart = 1;
+            _currentPart = NameDivisionConstant.CounterStart;
             Parts = new List<NamePartStruct>();
             ClearParticle();
         }
 
         private void ClearParticle() =>
             _particlePart = string.Empty;
-        
-        public void SetParticle(string sliceParticle) =>
-            _particlePart = sliceParticle;
-        
+
+        public void SetParticle(string sliceParticle)
+        {
+            if (_particlePart == string.Empty)
+                _particlePart = sliceParticle;
+            else
+                _particlePart += NameDivisionConstant.UnionChar + sliceParticle;
+        }
+
         public void Add(string sliceName)
         {
             Parts.Add(new NamePartStruct()

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using AutoMapper;
-using NLNameDivision.Cross.Constant;
+using NLNameDivision.Constant;
 using NLNameDivision.Entity;
 using NLNameDivision.Service.Abstraction;
 using NLNameDivision.Cross.DTO;

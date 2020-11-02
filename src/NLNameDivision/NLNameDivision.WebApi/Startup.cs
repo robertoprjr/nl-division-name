@@ -12,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using NLNameDivision.Cross.Constant;
+using NLNameDivision.Constant;
 using NLNameDivision.Service.Abstraction;
 using NLNameDivision.Service;
 using NLNameDivision.Cross.MapperProfile;

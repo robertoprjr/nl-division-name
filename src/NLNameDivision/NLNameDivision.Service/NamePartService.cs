@@ -1,5 +1,6 @@
 using System.Collections.Generic;
-using NLNameDivision.Cross.Constant;
+using System.Linq;
+using NLNameDivision.Constant;
 using NLNameDivision.Entity;
 using NLNameDivision.Entity.Struct;
 using NLNameDivision.Service.Abstraction;
@@ -24,7 +25,7 @@ namespace NLNameDivision.Service
             var nameParts = new NameParts();
             var nameSlices = SeparateNameInSlices(nameToDivide);
             
-            foreach (var nameSlice in nameSlices.Slices)
+            foreach (var nameSlice in nameSlices.Slices.OrderBy(x => x.Order))
                 SetPartBySlice(nameParts, nameSlice);
             
             return nameParts;

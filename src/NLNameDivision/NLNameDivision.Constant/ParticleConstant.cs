@@ -1,9 +1,9 @@
-namespace NLNameDivision.Cross.Constant
+namespace NLNameDivision.Constant
 {
     public static class ParticleConstant
     {
         public const string ListEnvironmentVariable = "PARTICLE_LIST";
         public const string ListDefault = "";
-        public const string ListSplitChar = " ";
+        public const string ListSplitChar = ",";
     }
 }

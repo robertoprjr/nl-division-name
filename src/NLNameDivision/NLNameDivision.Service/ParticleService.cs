@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.Configuration;
-using NLNameDivision.Cross.Constant;
+using NLNameDivision.Constant;
 using NLNameDivision.Service.Abstraction;
 
 namespace NLNameDivision.Service
