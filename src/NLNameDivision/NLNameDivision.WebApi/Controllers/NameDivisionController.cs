@@ -37,5 +37,12 @@ namespace NLNameDivision.WebApi.Controllers
             return _nameDivisionService.GetNameParted(nameToDivide);
         }
 
+        [HttpGet]
+        [Route("DivisionName/{nameToDivide}")]
+        public ActionResult<NamePartsDto> GetNameDivided(string nameToDivide)
+        {
+            return _nameDivisionService.GetNameDivided(nameToDivide);
+        }
+
     }
 }

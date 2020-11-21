@@ -4,6 +4,7 @@ using NLNameDivision.Constant;
 using NLNameDivision.Entity;
 using NLNameDivision.Service.Abstraction;
 using NLNameDivision.Cross.DTO;
+using NLNameDivision.Service.NameDivisionCofR;
 
 namespace NLNameDivision.Service
 {
@@ -26,5 +27,15 @@ namespace NLNameDivision.Service
         
         public NamePartsDto GetNameParted(string nameToDivide) => 
             _mapper.Map<NamePartsDto>(_namePartService.GetNameParted(nameToDivide));
+
+        public NamePartsDto GetNameDivided(string nameToDivide)
+        {
+            var nameParts = _namePartService.GetNameParted(nameToDivide);
+            var ruleToApply = NameDivisionRulesFactory.GetRuleOne();
+
+            var namePartsDivided = ruleToApply.Handle(nameParts);
+            
+            return _mapper.Map<NamePartsDto>(namePartsDivided);
+        }
     }
 }

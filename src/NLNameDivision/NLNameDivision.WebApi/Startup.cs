@@ -35,7 +35,7 @@ namespace NLNameDivision.WebApi
             services.AddSwaggerGen();
             
             ConfigureBusinessServices(services);
-            ConfigureAutoMapper(services);
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
         
         public void ConfigureBusinessServices(IServiceCollection services)
@@ -44,12 +44,6 @@ namespace NLNameDivision.WebApi
             services.TryAddScoped<IParticleService, ParticleService>();
             services.TryAddScoped<INamePartService, NamePartService>();
             services.TryAddScoped<INameDivisionService, NameDivisionService>();
-        }
-
-        public void ConfigureAutoMapper(IServiceCollection services)
-        {
-            services.AddAutoMapper(typeof(NameSliceMapperProfile));
-            services.AddAutoMapper(typeof(NameSlicesMapperProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

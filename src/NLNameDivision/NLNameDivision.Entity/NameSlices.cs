@@ -7,18 +7,18 @@ namespace NLNameDivision.Entity
     public class NameSlices
     {
         private int _currentSlice;
-        public List<NameSliceStruct> Slices { get; private set; } 
+        public List<NameSlice> Slices { get; private set; } 
         public NameSlices() => Start();
         
         public void Start()
         {
             _currentSlice = NameDivisionConstant.CounterStart;
-            Slices = new List<NameSliceStruct>();
+            Slices = new List<NameSlice>();
         }
 
         public void Add(string nameTerm, bool isParticle = false)
         {
-            Slices.Add(new NameSliceStruct()
+            Slices.Add(new NameSlice()
                 {
                     Order = _currentSlice,
                     IsParticle = isParticle,

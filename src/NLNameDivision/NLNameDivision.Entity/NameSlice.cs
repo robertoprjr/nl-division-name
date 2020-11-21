@@ -1,6 +1,6 @@
 namespace NLNameDivision.Entity.Struct
 {
-    public struct NameSliceStruct
+    public struct NameSlice
     {
         public int Order { get; set; }
         public bool IsParticle { get; set; }

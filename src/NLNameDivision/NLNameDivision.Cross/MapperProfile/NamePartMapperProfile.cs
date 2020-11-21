@@ -1,6 +1,6 @@
 using AutoMapper;
 using NLNameDivision.Cross.DTO;
-using NLNameDivision.Entity.Struct;
+using NLNameDivision.Entity;
 
 namespace NLNameDivision.Cross.MapperProfile
 {
@@ -8,7 +8,7 @@ namespace NLNameDivision.Cross.MapperProfile
     {
         public NamePartMapperProfile()
         {
-            CreateMap<NamePartStruct, NamePartDto>();
+            CreateMap<NamePart, NamePartDto>();
         }
     }
 }

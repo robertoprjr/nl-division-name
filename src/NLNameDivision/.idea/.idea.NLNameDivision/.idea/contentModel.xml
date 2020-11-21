@@ -5,6 +5,9 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_NLNameDivision.-1511865560.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="NLNameDivision.Constant" t="IncludeRecursive">
+        <e p="Enum" t="Include">
+          <e p="NameDivisionTypeEnum.cs" t="Include" />
+        </e>
         <e p="GeneralConstant.cs" t="Include" />
         <e p="NLNameDivision.Constant.csproj" t="IncludeRecursive" />
         <e p="NameDivisionConstant.cs" t="Include" />
@@ -43,12 +46,11 @@
       </e>
       <e p="NLNameDivision.Entity" t="IncludeRecursive">
         <e p="NLNameDivision.Entity.csproj" t="IncludeRecursive" />
+        <e p="NamePart.cs" t="Include" />
         <e p="NameParts.cs" t="Include" />
+        <e p="NameSlice.cs" t="Include" />
         <e p="NameSlices.cs" t="Include" />
-        <e p="Struct" t="Include">
-          <e p="NamePartStruct.cs" t="Include" />
-          <e p="NameSliceStruct.cs" t="Include" />
-        </e>
+        <e p="Struct" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -61,6 +63,12 @@
       <e p="NLNameDivision.Service" t="IncludeRecursive">
         <e p="DefaultService.cs" t="Include" />
         <e p="NLNameDivision.Service.csproj" t="IncludeRecursive" />
+        <e p="NameDivisionCofR" t="Include">
+          <e p="FirstNameDivisionHandler.cs" t="Include" />
+          <e p="LastFirstNameDivisionHandler.cs" t="Include" />
+          <e p="NameDivisionHandler.cs" t="Include" />
+          <e p="NameDivisionRulesFactory.cs" t="Include" />
+        </e>
         <e p="NameDivisionService.cs" t="Include" />
         <e p="NamePartService.cs" t="Include" />
         <e p="ParticleService.cs" t="Include" />
@@ -75,6 +83,7 @@
       </e>
       <e p="NLNameDivision.Service.Abstraction" t="IncludeRecursive">
         <e p="IDefaultService.cs" t="Include" />
+        <e p="INameDivisionHandler.cs" t="Include" />
         <e p="INameDivisionService.cs" t="Include" />
         <e p="INamePartService.cs" t="Include" />
         <e p="IParticleService.cs" t="Include" />

@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using NLNameDivision.Constant;
-using NLNameDivision.Entity.Struct;
+using NLNameDivision.Constant.Enum;
 
 namespace NLNameDivision.Entity
 {
@@ -10,13 +11,13 @@ namespace NLNameDivision.Entity
         private int _currentPart;
         private string _particlePart;
         
-        public List<NamePartStruct> Parts { get; private set; }
+        public List<NamePart> Parts { get; private set; }
         public NameParts() => Start();
 
         public void Start()
         {
             _currentPart = NameDivisionConstant.CounterStart;
-            Parts = new List<NamePartStruct>();
+            Parts = new List<NamePart>();
             ClearParticle();
         }
 
@@ -33,16 +34,36 @@ namespace NLNameDivision.Entity
 
         public void Add(string sliceName)
         {
-            Parts.Add(new NamePartStruct()
+            AddItemPart(sliceName);
+            _currentPart++;
+            ClearParticle();
+        }
+
+        private void AddItemPart(string sliceName)
+        {
+            Parts.Add(new NamePart()
                 {
                     Order = _currentPart,
                     Particle = _particlePart,
-                    Value = sliceName
+                    Value = sliceName,
+                    Type = NameDivisionTypeEnum.Indefinido
                 }
             );
+        }
+        
+        public void SetAllUndefined() =>
+            Parts.ForEach(x => x.Type = NameDivisionTypeEnum.Indefinido);
 
-            _currentPart++;
-            ClearParticle();
+        public bool IsAllDefined() => 
+            Parts.All(x => x.Type != NameDivisionTypeEnum.Indefinido);
+
+        public void SetDefinitionByOrder(int order, NameDivisionTypeEnum type)
+        {
+            for (int i = 0; i < Parts.Count; i++)
+            {
+                if (Parts[i].Order == order)
+                    Parts[i].Type = type;
+            }
         }
     }
 }

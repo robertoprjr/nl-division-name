@@ -1,8 +1,9 @@
+using System.Reflection.Metadata;
 using NLNameDivision.Constant.Enum;
 
-namespace NLNameDivision.Cross.DTO
+namespace NLNameDivision.Entity
 {
-    public struct NamePartDto
+    public class NamePart
     {
         public int Order { get; set; }
         public string Particle { get; set; }

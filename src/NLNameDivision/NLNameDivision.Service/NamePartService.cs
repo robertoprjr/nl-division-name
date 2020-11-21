@@ -31,7 +31,7 @@ namespace NLNameDivision.Service
             return nameParts;
         }
 
-        private void SetPartBySlice(NameParts nameParts, NameSliceStruct nameSlice)
+        private void SetPartBySlice(NameParts nameParts, NameSlice nameSlice)
         {
             if (nameSlice.IsParticle)
                 nameParts.SetParticle(nameSlice.Value);

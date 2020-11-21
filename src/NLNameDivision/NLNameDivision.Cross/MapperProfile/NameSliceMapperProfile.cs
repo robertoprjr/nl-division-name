@@ -8,7 +8,7 @@ namespace NLNameDivision.Cross.MapperProfile
     {
         public NameSliceMapperProfile()
         {
-            CreateMap<NameSliceStruct, NameSliceDto>();
+            CreateMap<NameSlice, NameSliceDto>();
         }
     }
 }

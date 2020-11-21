@@ -1,6 +1,6 @@
 namespace NLNameDivision.Cross.DTO
 {
-    public class NameSliceDto
+    public struct NameSliceDto
     {
         public int Order { get; set; }
         public bool IsParticle { get; set; }
