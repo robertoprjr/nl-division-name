@@ -8,7 +8,7 @@ namespace NLNameDivision.Service.NameDivisionCofR
         private int _order = 1;
         public override NameParts DefineDivision(NameParts nameParts)
         {
-            nameParts.SetDefinitionByOrder(_order, NameDivisionTypeEnum.PrimeiroNome);
+            nameParts.SetDefinitionByOrder(_order, NameDivisionTypeEnum.FirstName);
             return nameParts;
         }
     }

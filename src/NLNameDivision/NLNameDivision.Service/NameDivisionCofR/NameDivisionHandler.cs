@@ -1,5 +1,6 @@
 using NLNameDivision.Entity;
 using NLNameDivision.Service.Abstraction;
+using NLNameDivision.Service.Abstraction.NameDivisionCofR;
 
 namespace NLNameDivision.Service.NameDivisionCofR
 {

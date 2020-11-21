@@ -50,7 +50,6 @@
         <e p="NameParts.cs" t="Include" />
         <e p="NameSlice.cs" t="Include" />
         <e p="NameSlices.cs" t="Include" />
-        <e p="Struct" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -64,8 +63,8 @@
         <e p="DefaultService.cs" t="Include" />
         <e p="NLNameDivision.Service.csproj" t="IncludeRecursive" />
         <e p="NameDivisionCofR" t="Include">
+          <e p="FirstLastNameDivisionHandler.cs" t="Include" />
           <e p="FirstNameDivisionHandler.cs" t="Include" />
-          <e p="LastFirstNameDivisionHandler.cs" t="Include" />
           <e p="NameDivisionHandler.cs" t="Include" />
           <e p="NameDivisionRulesFactory.cs" t="Include" />
         </e>
@@ -83,11 +82,13 @@
       </e>
       <e p="NLNameDivision.Service.Abstraction" t="IncludeRecursive">
         <e p="IDefaultService.cs" t="Include" />
-        <e p="INameDivisionHandler.cs" t="Include" />
         <e p="INameDivisionService.cs" t="Include" />
         <e p="INamePartService.cs" t="Include" />
         <e p="IParticleService.cs" t="Include" />
         <e p="NLNameDivision.Service.Abstraction.csproj" t="IncludeRecursive" />
+        <e p="NameDivisionCofR" t="Include">
+          <e p="INameDivisionHandler.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

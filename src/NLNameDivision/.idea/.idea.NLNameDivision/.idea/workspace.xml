@@ -23,26 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc0debd-bc71-429d-9d14-3c643ecc59a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NameDivisionTypeEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/LastFirstNameDivisionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartsDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartsDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSliceDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSliceDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSlicesDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSlicesDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NamePartMapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NamePartMapperProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NameDivisionTypeEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NameDivisionTypeEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/NLNameDivision.Entity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NLNameDivision.Entity.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/Struct/NamePartStruct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NamePart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/Struct/NameSliceStruct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/Struct/NameSlice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NameDivisionCofR/INameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/LastFirstNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstLastNameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NLNameDivision.ShowRefactor/v2/NameDivisionServiceV2.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/IParticleService.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Entity/Class1.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameRoot.cs" />
@@ -77,7 +66,6 @@
         <option value="$PROJECT_DIR$/NLNameDivision.ShowRefactor/NLNameDivision.ShowRefactor.csproj" />
         <option value="$PROJECT_DIR$/NLNameDivision.WebApi/NLNameDivision.WebApi.csproj" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameSlicesMapperProfile.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameSliceMapperProfile.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NamePartsMapperProfile.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INamePartService.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/Constant/ParticleConstant.cs" />
@@ -89,29 +77,31 @@
         <option value="$PROJECT_DIR$/NLNameDivision.Service/DefaultService.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/ParticleService.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Constant/NameDivisionConstant.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameSlices.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NamePartService.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionSelectHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NameDivisionTypeEnum.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionFactory.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/LastFirstNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Entity/Struct/NamePartStruct.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Entity/NamePart.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NamePartMapperProfile.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartDto.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSliceDto.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartsDto.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSlicesDto.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Entity/Struct/NameSliceStruct.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameSlices.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameSliceMapperProfile.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NamePartService.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NameDivisionCofR/INameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NameDivisionTypeEnum.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/LastFirstNameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +165,7 @@
       <workItem from="1604413259793" duration="810000" />
       <workItem from="1604798942019" duration="1162000" />
       <workItem from="1605660010633" duration="9412000" />
-      <workItem from="1605916075563" duration="2279000" />
+      <workItem from="1605916075563" duration="5266000" />
     </task>
     <servers />
   </component>
@@ -212,22 +202,22 @@
       <screen x="48" y="27" width="1318" height="741" />
     </state>
     <state x="490" y="155" width="424" height="491" key="FileChooserDialogImpl/48.27.1318.741@48.27.1318.741" timestamp="1604273049189" />
-    <state width="1272" height="242" key="GridCell.Tab.0.bottom" timestamp="1605829751867">
+    <state width="1272" height="232" key="GridCell.Tab.0.bottom" timestamp="1605919330769">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="242" key="GridCell.Tab.0.bottom/48.27.1318.741@48.27.1318.741" timestamp="1605829751867" />
-    <state width="1272" height="242" key="GridCell.Tab.0.center" timestamp="1605829751866">
+    <state width="1272" height="232" key="GridCell.Tab.0.bottom/48.27.1318.741@48.27.1318.741" timestamp="1605919330769" />
+    <state width="1272" height="232" key="GridCell.Tab.0.center" timestamp="1605919330768">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="242" key="GridCell.Tab.0.center/48.27.1318.741@48.27.1318.741" timestamp="1605829751866" />
-    <state width="1272" height="242" key="GridCell.Tab.0.left" timestamp="1605829751866">
+    <state width="1272" height="232" key="GridCell.Tab.0.center/48.27.1318.741@48.27.1318.741" timestamp="1605919330768" />
+    <state width="1272" height="232" key="GridCell.Tab.0.left" timestamp="1605919330767">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="242" key="GridCell.Tab.0.left/48.27.1318.741@48.27.1318.741" timestamp="1605829751866" />
-    <state width="1272" height="242" key="GridCell.Tab.0.right" timestamp="1605829751867">
+    <state width="1272" height="232" key="GridCell.Tab.0.left/48.27.1318.741@48.27.1318.741" timestamp="1605919330767" />
+    <state width="1272" height="232" key="GridCell.Tab.0.right" timestamp="1605919330769">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="242" key="GridCell.Tab.0.right/48.27.1318.741@48.27.1318.741" timestamp="1605829751867" />
+    <state width="1272" height="232" key="GridCell.Tab.0.right/48.27.1318.741@48.27.1318.741" timestamp="1605919330769" />
     <state width="1272" height="242" key="GridCell.Tab.1.bottom" timestamp="1605829779757">
       <screen x="48" y="27" width="1318" height="741" />
     </state>

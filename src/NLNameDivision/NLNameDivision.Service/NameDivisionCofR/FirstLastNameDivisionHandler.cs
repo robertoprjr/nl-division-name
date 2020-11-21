@@ -3,12 +3,12 @@ using NLNameDivision.Entity;
 
 namespace NLNameDivision.Service.NameDivisionCofR
 {
-    public class LastFirstNameDivisionHandler: NameDivisionHandler
+    public class FirstLastNameDivisionHandler: NameDivisionHandler
     {
         private int _order = 2;
         public override NameParts DefineDivision(NameParts nameParts)
         {
-            nameParts.SetDefinitionByOrder(_order, NameDivisionTypeEnum.PrimeiroSobrenome);
+            nameParts.SetDefinitionByOrder(_order, NameDivisionTypeEnum.FirstLastName);
             return nameParts;
         }
     }

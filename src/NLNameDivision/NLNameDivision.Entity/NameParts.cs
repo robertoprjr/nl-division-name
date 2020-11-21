@@ -10,6 +10,7 @@ namespace NLNameDivision.Entity
     {
         private int _currentPart;
         private string _particlePart;
+        private Dictionary<int, int> _keyPart;
         
         public List<NamePart> Parts { get; private set; }
         public NameParts() => Start();
@@ -17,6 +18,7 @@ namespace NLNameDivision.Entity
         public void Start()
         {
             _currentPart = NameDivisionConstant.CounterStart;
+            _keyPart = new Dictionary<int, int>();
             Parts = new List<NamePart>();
             ClearParticle();
         }
@@ -46,24 +48,23 @@ namespace NLNameDivision.Entity
                     Order = _currentPart,
                     Particle = _particlePart,
                     Value = sliceName,
-                    Type = NameDivisionTypeEnum.Indefinido
+                    Type = NameDivisionTypeEnum.Undefined
                 }
             );
+            
+            _keyPart.Add(_currentPart, Parts.Count - 1);
         }
         
         public void SetAllUndefined() =>
-            Parts.ForEach(x => x.Type = NameDivisionTypeEnum.Indefinido);
+            Parts.ForEach(x => x.Type = NameDivisionTypeEnum.Undefined);
 
         public bool IsAllDefined() => 
-            Parts.All(x => x.Type != NameDivisionTypeEnum.Indefinido);
+            Parts.All(x => x.Type != NameDivisionTypeEnum.Undefined);
 
         public void SetDefinitionByOrder(int order, NameDivisionTypeEnum type)
         {
-            for (int i = 0; i < Parts.Count; i++)
-            {
-                if (Parts[i].Order == order)
-                    Parts[i].Type = type;
-            }
+            if (_keyPart.ContainsKey(order))
+                Parts[_keyPart[order]].Type = type;
         }
     }
 }

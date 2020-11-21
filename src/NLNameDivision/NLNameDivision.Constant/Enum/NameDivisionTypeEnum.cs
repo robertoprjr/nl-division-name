@@ -4,15 +4,15 @@ namespace NLNameDivision.Constant.Enum
 {
     public enum NameDivisionTypeEnum
     {
-        [Description("Indefinido")]
-        Indefinido = 0,
-        [Description("Primeiro Nome")]
-        PrimeiroNome = 1,
-        [Description("Segundo Nome")]
-        SegundoNome = 2,
-        [Description("Primeiro Sobrenome")]
-        PrimeiroSobrenome = 3,
-        [Description("Segundo Sobrenome")]
-        SegundoSobrenome = 4
+        [Description("Undefined")]
+        Undefined = 0,
+        [Description("First Name")]
+        FirstName = 1,
+        [Description("Middle Name")]
+        MiddleName = 2,
+        [Description("First Last Name")]
+        FirstLastName = 3,
+        [Description("Second Last Name")]
+        SecondLastName = 4
     }
 }

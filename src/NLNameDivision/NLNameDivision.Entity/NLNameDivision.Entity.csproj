@@ -8,8 +8,4 @@
       <ProjectReference Include="..\NLNameDivision.Constant\NLNameDivision.Constant.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Struct" />
-    </ItemGroup>
-
 </Project>
