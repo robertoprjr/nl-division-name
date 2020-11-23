@@ -7,5 +7,6 @@ namespace NLNameDivision.Constant
         public const string SplitChar = " ";
         public const string UnionChar = " ";
         public const int CounterStart = 1;
+        public const string AlternativeNotDefinedName = ".";
     }
 }

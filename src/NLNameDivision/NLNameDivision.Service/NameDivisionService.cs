@@ -31,7 +31,7 @@ namespace NLNameDivision.Service
         public NamePartsDto GetNameDivided(string nameToDivide)
         {
             var nameParts = _namePartService.GetNameParted(nameToDivide);
-            var ruleToApply = NameDivisionRulesFactory.GetRuleOne();
+            var ruleToApply = NameDivisionRulesFactory.GetRule(nameParts.Count());
 
             var namePartsDivided = ruleToApply.Handle(nameParts);
             

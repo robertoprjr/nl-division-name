@@ -7,6 +7,7 @@
       <e p="NLNameDivision.Constant" t="IncludeRecursive">
         <e p="Enum" t="Include">
           <e p="NameDivisionTypeEnum.cs" t="Include" />
+          <e p="NamePositionEnum.cs" t="Include" />
         </e>
         <e p="GeneralConstant.cs" t="Include" />
         <e p="NLNameDivision.Constant.csproj" t="IncludeRecursive" />
@@ -63,10 +64,16 @@
         <e p="DefaultService.cs" t="Include" />
         <e p="NLNameDivision.Service.csproj" t="IncludeRecursive" />
         <e p="NameDivisionCofR" t="Include">
-          <e p="FirstLastNameDivisionHandler.cs" t="Include" />
-          <e p="FirstNameDivisionHandler.cs" t="Include" />
           <e p="NameDivisionHandler.cs" t="Include" />
           <e p="NameDivisionRulesFactory.cs" t="Include" />
+          <e p="RuleHandler" t="Include">
+            <e p="AddAlternativeFirstLastNameDivisionHandler.cs" t="Include" />
+            <e p="FirstLastNameDivisionHandler.cs" t="Include" />
+            <e p="FirstNameDivisionHandler.cs" t="Include" />
+            <e p="MiddleNameDivisionHandler.cs" t="Include" />
+            <e p="SecondLastNameDivisionHandler.cs" t="Include" />
+            <e p="SecondLastNameForAllPlusDivisionHandler.cs" t="Include" />
+          </e>
         </e>
         <e p="NameDivisionService.cs" t="Include" />
         <e p="NamePartService.cs" t="Include" />
