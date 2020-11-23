@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using AutoMapper;
-using NLNameDivision.Constant;
 using NLNameDivision.Entity;
 using NLNameDivision.Service.Abstraction;
 using NLNameDivision.Cross.DTO;
@@ -28,14 +27,16 @@ namespace NLNameDivision.Service
         public NamePartsDto GetNameParted(string nameToDivide) => 
             _mapper.Map<NamePartsDto>(_namePartService.GetNameParted(nameToDivide));
 
-        public NamePartsDto GetNameDivided(string nameToDivide)
+        public NamePartsDto GetNameDivided(string nameToDivide) => 
+            _mapper.Map<NamePartsDto>(DivideName(nameToDivide));
+
+        private NameParts DivideName(string nameToDivide)
         {
             var nameParts = _namePartService.GetNameParted(nameToDivide);
             var ruleToApply = NameDivisionRulesFactory.GetRule(nameParts.Count());
 
             var namePartsDivided = ruleToApply.Handle(nameParts);
-            
-            return _mapper.Map<NamePartsDto>(namePartsDivided);
+            return namePartsDivided;
         }
     }
 }
