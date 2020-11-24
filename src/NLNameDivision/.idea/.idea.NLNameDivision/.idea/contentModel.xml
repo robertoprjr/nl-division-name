@@ -118,7 +118,6 @@
       </e>
       <e p="NLNameDivision.WebApi" t="IncludeRecursive">
         <e p="Controllers" t="Include">
-          <e p="DefaultController.cs" t="Include" />
           <e p="NameDivisionController.cs" t="Include" />
         </e>
         <e p="NLNameDivision.WebApi.csproj" t="IncludeRecursive" />

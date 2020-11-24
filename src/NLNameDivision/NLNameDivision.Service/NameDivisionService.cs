@@ -40,9 +40,9 @@ namespace NLNameDivision.Service
         }
 
         public NameStructuredDto GetNameStructured(string nameToDivide) =>
-            _mapper.Map<NameStructuredDto>(ComposeName(nameToDivide));
+            _mapper.Map<NameStructuredDto>(StructureName(nameToDivide));
 
-        private NameStructured ComposeName(string nameToDivide)
+        private NameStructured StructureName(string nameToDivide)
         {
             var namePartsDivided = DivideName(nameToDivide);
             

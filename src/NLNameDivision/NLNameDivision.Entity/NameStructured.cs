@@ -41,18 +41,30 @@ namespace NLNameDivision.Entity
             }
         }
         
-        private string ComposeName(string actualName, NamePart namePart)
+        private string ComposeName(string actualNameComposed, NamePart namePart)
         {
-            var returnName = actualName;
+            var newNameComposed = actualNameComposed;
+            newNameComposed += ComposeUnionChar(newNameComposed);
+            newNameComposed += ComposeParticle(namePart.Particle);
+            newNameComposed += namePart.Value;
+
+            return newNameComposed;
+        }
+
+        private string ComposeUnionChar(string actualNameComposed)
+        {
+            if (actualNameComposed == String.Empty)
+                return String.Empty;
             
-            if (returnName != String.Empty)
-                returnName += NameDivisionConstant.UnionChar;
+            return NameDivisionConstant.UnionChar;
+        }
 
-            if (namePart.Particle != String.Empty)
-                returnName += namePart.Particle + NameDivisionConstant.UnionChar;
+        private string ComposeParticle(string particle)
+        {
+            if (particle == String.Empty)
+                return String.Empty;
 
-            returnName += namePart.Value;
-            return returnName;
+            return particle + NameDivisionConstant.UnionChar;
         }
     }
 }
