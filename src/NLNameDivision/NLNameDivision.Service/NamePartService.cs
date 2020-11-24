@@ -32,7 +32,7 @@ namespace NLNameDivision.Service
             return nameParts;
         }
 
-        private void SetPartBySlice(NameParts nameParts, NameSlice nameSlice)
+        private static void SetPartBySlice(NameParts nameParts, NameSlice nameSlice)
         {
             if (nameSlice.IsParticle)
                 nameParts.SetParticle(nameSlice.Value);
@@ -58,7 +58,7 @@ namespace NLNameDivision.Service
                 nameSlices.Add(nameTerm, _particleService.IsParticle(nameTerm));
         }
 
-        private string[] GetNameTerms(string nameToDivide) =>
+        private static IEnumerable<string> GetNameTerms(string nameToDivide) =>
             nameToDivide.Split(NameDivisionConstant.SplitChar);
     }
 }

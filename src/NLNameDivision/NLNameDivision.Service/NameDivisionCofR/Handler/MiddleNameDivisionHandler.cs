@@ -11,7 +11,8 @@ namespace NLNameDivision.Service.NameDivisionCofR.Handler
         {
             _position = position;
         }
-        public override NameParts DefineDivision(NameParts nameParts)
+
+        protected override NameParts DefineDivision(NameParts nameParts)
         {
             nameParts.SetDefinitionByPosition((int) _position, NameDivisionTypeEnum.MiddleName);
             return nameParts;

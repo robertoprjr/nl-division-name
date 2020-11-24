@@ -48,7 +48,7 @@ namespace NLNameDivision.Service
             return FillNameStructured(namePartsDivided);
         }
 
-        private NameStructured FillNameStructured(NameParts namePartsDivided)
+        private static NameStructured FillNameStructured(NameParts namePartsDivided)
         {
             var nameStructured = new NameStructured();
             nameStructured.FillNameStructured(namePartsDivided);

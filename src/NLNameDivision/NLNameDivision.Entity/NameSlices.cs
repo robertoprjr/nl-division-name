@@ -10,7 +10,7 @@ namespace NLNameDivision.Entity
         public List<NameSlice> Slices { get; private set; } 
         public NameSlices() => Start();
         
-        public void Start()
+        private void Start()
         {
             _currentSlice = NameDivisionConstant.CounterStart;
             Slices = new List<NameSlice>();

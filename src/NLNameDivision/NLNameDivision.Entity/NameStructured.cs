@@ -6,15 +6,15 @@ namespace NLNameDivision.Entity
 {
     public class NameStructured
     {
-        public string FirstName { get; set; }
-        public string MiddleName { get; set; }
-        public string FirstLastName { get; set; }
-        public string SecondLastName { get; set; }
+        public string FirstName { get; private set; }
+        public string MiddleName { get; private set; }
+        public string FirstLastName { get; private set; }
+        public string SecondLastName { get; private set; }
 
         public NameStructured() => ClearNames();
         
-        public void ClearNames() =>
-            FirstName = MiddleName = FirstLastName = SecondLastName = String.Empty;
+        private void ClearNames() =>
+            FirstName = MiddleName = FirstLastName = SecondLastName = string.Empty;
         
         public void FillNameStructured(NameParts nameParts)
         {
@@ -38,10 +38,14 @@ namespace NLNameDivision.Entity
                 case NameDivisionTypeEnum.SecondLastName:
                     SecondLastName = ComposeName(SecondLastName, namePart);
                     break;
+                case NameDivisionTypeEnum.Undefined:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
             }
         }
         
-        private string ComposeName(string actualNameComposed, NamePart namePart)
+        private static string ComposeName(string actualNameComposed, NamePart namePart)
         {
             var newNameComposed = actualNameComposed;
             newNameComposed += ComposeUnionChar(newNameComposed);
@@ -51,20 +55,10 @@ namespace NLNameDivision.Entity
             return newNameComposed;
         }
 
-        private string ComposeUnionChar(string actualNameComposed)
-        {
-            if (actualNameComposed == String.Empty)
-                return String.Empty;
-            
-            return NameDivisionConstant.UnionChar;
-        }
+        private static string ComposeUnionChar(string actualNameComposed) =>
+            (actualNameComposed == string.Empty ? string.Empty : NameDivisionConstant.UnionChar);
 
-        private string ComposeParticle(string particle)
-        {
-            if (particle == String.Empty)
-                return String.Empty;
-
-            return particle + NameDivisionConstant.UnionChar;
-        }
+        private static string ComposeParticle(string particle) => 
+            (particle == string.Empty ? string.Empty : particle + NameDivisionConstant.UnionChar);
     }
 }
