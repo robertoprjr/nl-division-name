@@ -1,19 +1,19 @@
 using NLNameDivision.Constant.Enum;
 using NLNameDivision.Entity;
 
-namespace NLNameDivision.Service.NameDivisionCofR.RuleHandler
+namespace NLNameDivision.Service.NameDivisionCofR.Handler
 {
-    public class MiddleNameDivisionHandler : NameDivisionHandler
+    public class SecondLastNameDivisionHandler: NameDivisionHandler
     {
         private readonly NamePositionEnum _position;
 
-        public MiddleNameDivisionHandler(NamePositionEnum position)
+        public SecondLastNameDivisionHandler(NamePositionEnum position)
         {
             _position = position;
         }
         public override NameParts DefineDivision(NameParts nameParts)
         {
-            nameParts.SetDefinitionByPosition((int) _position, NameDivisionTypeEnum.MiddleName);
+            nameParts.SetDefinitionByPosition((int) _position, NameDivisionTypeEnum.SecondLastName);
             return nameParts;
         }
     }

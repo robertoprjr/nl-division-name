@@ -2,7 +2,7 @@ using NLNameDivision.Constant;
 using NLNameDivision.Constant.Enum;
 using NLNameDivision.Entity;
 
-namespace NLNameDivision.Service.NameDivisionCofR.RuleHandler
+namespace NLNameDivision.Service.NameDivisionCofR.Handler
 {
     public class AddAlternativeFirstLastNameDivisionHandler: NameDivisionHandler
     {

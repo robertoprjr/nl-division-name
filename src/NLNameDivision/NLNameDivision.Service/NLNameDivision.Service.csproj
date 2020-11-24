@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <Compile Remove="Mapper\NameSliceMapper.cs" />
+      <Compile Remove="NameDivisionCofR\Rule\NameRule.cs" />
     </ItemGroup>
 
 </Project>

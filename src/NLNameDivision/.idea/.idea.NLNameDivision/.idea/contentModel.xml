@@ -28,12 +28,14 @@
           <e p="NamePartsDto.cs" t="Include" />
           <e p="NameSliceDto.cs" t="Include" />
           <e p="NameSlicesDto.cs" t="Include" />
+          <e p="NameStructuredDto.cs" t="Include" />
         </e>
         <e p="MapperProfile" t="Include">
           <e p="NamePartMapperProfile.cs" t="Include" />
           <e p="NamePartsMapperProfile.cs" t="Include" />
           <e p="NameSliceMapperProfile.cs" t="Include" />
           <e p="NameSlicesMapperProfile.cs" t="Include" />
+          <e p="NameStructuredMapperProfile.cs" t="Include" />
         </e>
         <e p="NLNameDivision.Cross.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
@@ -51,6 +53,7 @@
         <e p="NameParts.cs" t="Include" />
         <e p="NameSlice.cs" t="Include" />
         <e p="NameSlices.cs" t="Include" />
+        <e p="NameStructured.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -64,15 +67,22 @@
         <e p="DefaultService.cs" t="Include" />
         <e p="NLNameDivision.Service.csproj" t="IncludeRecursive" />
         <e p="NameDivisionCofR" t="Include">
-          <e p="NameDivisionHandler.cs" t="Include" />
-          <e p="NameDivisionRulesFactory.cs" t="Include" />
-          <e p="RuleHandler" t="Include">
+          <e p="Handler" t="Include">
             <e p="AddAlternativeFirstLastNameDivisionHandler.cs" t="Include" />
             <e p="FirstLastNameDivisionHandler.cs" t="Include" />
             <e p="FirstNameDivisionHandler.cs" t="Include" />
             <e p="MiddleNameDivisionHandler.cs" t="Include" />
             <e p="SecondLastNameDivisionHandler.cs" t="Include" />
             <e p="SecondLastNameForAllPlusDivisionHandler.cs" t="Include" />
+          </e>
+          <e p="NameDivisionHandler.cs" t="Include" />
+          <e p="NameDivisionRuleFactory.cs" t="Include" />
+          <e p="Rule" t="Include">
+            <e p="FourNameDivisionRule.cs" t="Include" />
+            <e p="OneNameDivisionRule.cs" t="Include" />
+            <e p="PlusNameDivisionRule.cs" t="Include" />
+            <e p="ThreeNameDivisionRule.cs" t="Include" />
+            <e p="TwoNameDivisionRule.cs" t="Include" />
           </e>
         </e>
         <e p="NameDivisionService.cs" t="Include" />
@@ -95,6 +105,7 @@
         <e p="NLNameDivision.Service.Abstraction.csproj" t="IncludeRecursive" />
         <e p="NameDivisionCofR" t="Include">
           <e p="INameDivisionHandler.cs" t="Include" />
+          <e p="INameDivisionRule.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

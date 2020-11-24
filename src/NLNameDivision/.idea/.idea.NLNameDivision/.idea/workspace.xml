@@ -23,21 +23,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc0debd-bc71-429d-9d14-3c643ecc59a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NamePositionEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstLastNameDivisionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstNameDivisionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/MiddleNameDivisionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameDivisionHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameStructuredDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameStructuredMapperProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NameStructured.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NameDivisionCofR/INameDivisionRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/FourNameDivisionRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/NameRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/OneNameDivisionRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/PlusNameDivisionRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/ThreeNameDivisionRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/TwoNameDivisionRule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Constant/NameDivisionConstant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Constant/NameDivisionConstant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/NamePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NamePart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstLastNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/AddAlternativeFirstLastNameDivisionHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameForAllPlusDivisionHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NLNameDivision.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NLNameDivision.Service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRuleFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/AddAlternativeFirstLastNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/AddAlternativeFirstLastNameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstLastNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/FirstLastNameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/FirstNameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/MiddleNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/MiddleNameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/SecondLastNameDivisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameForAllPlusDivisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/SecondLastNameForAllPlusDivisionHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +57,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45B80AE8-5287-4889-B763-035D637BFDDC/C/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/NameRule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/DefaultController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLNameDivision.Constant/GeneralConstant.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLNameDivision.Service.Abstraction/IDefaultService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,26 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameSlicesMapperProfile.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NamePartsMapperProfile.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INamePartService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/Constant/ParticleConstant.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.WebApi/appsettings.Development.json" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/Constant/NameDivisionConstant.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Constant/Class1.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Constant/GeneralConstant.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Constant/ParticleConstant.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/DefaultService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/ParticleService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionSelectHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionFactory.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/Struct/NamePartStruct.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NamePartMapperProfile.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSliceDto.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartsDto.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSlicesDto.cs" />
@@ -93,20 +82,40 @@
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/AddAlternativeNotDefinedNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstLastNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Constant/NameDivisionConstant.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/AddAlternativeFirstLastNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/MiddleNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/SecondLastNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/SecondLastNameForAllPlusDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/AddAlternativeFirstLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstLastNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/MiddleNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameDivisionHandler.cs" />
         <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameForAllPlusDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/AddAlternativeFirstLastNameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/FirstLastNameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/FirstNameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/MiddleNameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/SecondLastNameDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/SecondLastNameForAllPlusDivisionHandler.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/OneNameRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/NameRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/OneNameDivisionRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NameDivisionCofR/INameDivisionRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/TwoNameDivisionRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/ThreeNameDivisionRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/FourNameDivisionRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/PlusNameDivisionRule.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRuleFactory.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameStructured.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameStructuredDto.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameStructuredMapperProfile.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" />
+        <option value="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +181,7 @@
       <workItem from="1605660010633" duration="9412000" />
       <workItem from="1605916075563" duration="9739000" />
       <workItem from="1606142291613" duration="1838000" />
-      <workItem from="1606167971365" duration="6444000" />
+      <workItem from="1606167971365" duration="16452000" />
     </task>
     <servers />
   </component>
@@ -209,22 +218,22 @@
       <screen x="48" y="27" width="1318" height="741" />
     </state>
     <state x="490" y="155" width="424" height="491" key="FileChooserDialogImpl/48.27.1318.741@48.27.1318.741" timestamp="1604273049189" />
-    <state width="1272" height="232" key="GridCell.Tab.0.bottom" timestamp="1606174378231">
+    <state width="1272" height="232" key="GridCell.Tab.0.bottom" timestamp="1606224368724">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.bottom/48.27.1318.741@48.27.1318.741" timestamp="1606174378231" />
-    <state width="1272" height="232" key="GridCell.Tab.0.center" timestamp="1606174378230">
+    <state width="1272" height="232" key="GridCell.Tab.0.bottom/48.27.1318.741@48.27.1318.741" timestamp="1606224368724" />
+    <state width="1272" height="232" key="GridCell.Tab.0.center" timestamp="1606224368724">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.center/48.27.1318.741@48.27.1318.741" timestamp="1606174378230" />
-    <state width="1272" height="232" key="GridCell.Tab.0.left" timestamp="1606174378229">
+    <state width="1272" height="232" key="GridCell.Tab.0.center/48.27.1318.741@48.27.1318.741" timestamp="1606224368724" />
+    <state width="1272" height="232" key="GridCell.Tab.0.left" timestamp="1606224368724">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.left/48.27.1318.741@48.27.1318.741" timestamp="1606174378229" />
-    <state width="1272" height="232" key="GridCell.Tab.0.right" timestamp="1606174378231">
+    <state width="1272" height="232" key="GridCell.Tab.0.left/48.27.1318.741@48.27.1318.741" timestamp="1606224368724" />
+    <state width="1272" height="232" key="GridCell.Tab.0.right" timestamp="1606224368724">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.right/48.27.1318.741@48.27.1318.741" timestamp="1606174378231" />
+    <state width="1272" height="232" key="GridCell.Tab.0.right/48.27.1318.741@48.27.1318.741" timestamp="1606224368724" />
     <state width="1272" height="242" key="GridCell.Tab.1.bottom" timestamp="1606173245202">
       <screen x="48" y="27" width="1318" height="741" />
     </state>
@@ -318,26 +327,13 @@
           <line>18</line>
           <properties documentPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" initialLine="11">
             <startOffsets>
-              <option value="735" />
+              <option value="704" />
             </startOffsets>
             <endOffsets>
-              <option value="816" />
+              <option value="785" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs</url>
-          <line>32</line>
-          <properties documentPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" initialLine="32">
-            <startOffsets>
-              <option value="1168" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1229" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

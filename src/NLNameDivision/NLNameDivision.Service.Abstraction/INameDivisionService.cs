@@ -9,5 +9,6 @@ namespace NLNameDivision.Service.Abstraction
         NameSlicesDto GetNameSliced(string nameToDivide);
         NamePartsDto GetNameParted(string nameToDivide);
         NamePartsDto GetNameDivided(string nameToDivide);
+        NameStructuredDto GetNameStructured(string nameToDivide);
     }
 }

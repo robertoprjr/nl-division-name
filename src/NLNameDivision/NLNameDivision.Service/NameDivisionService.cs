@@ -33,10 +33,23 @@ namespace NLNameDivision.Service
         private NameParts DivideName(string nameToDivide)
         {
             var nameParts = _namePartService.GetNameParted(nameToDivide);
-            var ruleToApply = NameDivisionRulesFactory.GetRule(nameParts.Count());
+            var ruleToApply = NameDivisionRuleFactory.GetRule(nameParts.Count());
 
             var namePartsDivided = ruleToApply.Handle(nameParts);
             return namePartsDivided;
+        }
+
+        public NameStructuredDto GetNameStructured(string nameToDivide) =>
+            _mapper.Map<NameStructuredDto>(ComposeName(nameToDivide));
+
+        private NameStructured ComposeName(string nameToDivide)
+        {
+            var namePartsDivided = DivideName(nameToDivide);
+            
+            var nameStructured = new NameStructured();
+            nameStructured.FillNameStructured(namePartsDivided);
+
+            return nameStructured;
         }
     }
 }
