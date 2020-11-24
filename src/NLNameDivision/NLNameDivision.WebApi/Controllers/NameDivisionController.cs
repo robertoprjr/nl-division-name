@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using NLNameDivision.Cross.DTO;
 using NLNameDivision.Service.Abstraction;
@@ -45,11 +44,10 @@ namespace NLNameDivision.WebApi.Controllers
         }
 
         [HttpGet]
-        [Route("Structure/{nameToDivide}")]
+        [Route("StructureName/{nameToDivide}")]
         public ActionResult<NameStructuredDto> GetNameStructured(string nameToDivide)
         {
             return _nameDivisionService.GetNameStructured(nameToDivide);
         }
-
     }
 }

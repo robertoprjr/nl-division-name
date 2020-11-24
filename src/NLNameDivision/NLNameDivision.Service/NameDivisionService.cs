@@ -45,7 +45,11 @@ namespace NLNameDivision.Service
         private NameStructured StructureName(string nameToDivide)
         {
             var namePartsDivided = DivideName(nameToDivide);
-            
+            return FillNameStructured(namePartsDivided);
+        }
+
+        private NameStructured FillNameStructured(NameParts namePartsDivided)
+        {
             var nameStructured = new NameStructured();
             nameStructured.FillNameStructured(namePartsDivided);
 

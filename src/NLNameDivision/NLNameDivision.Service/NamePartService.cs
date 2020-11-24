@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using NLNameDivision.Constant;
@@ -46,9 +47,15 @@ namespace NLNameDivision.Service
             var nameTerms = GetNameTerms(nameToDivide);
             
             foreach (var nameTerm in nameTerms)
-                nameSlices.Add(nameTerm, _particleService.IsParticle(nameTerm));
+                AddSlice(nameTerm.Trim(), nameSlices);
             
             return nameSlices;
+        }
+
+        private void AddSlice(string nameTerm, NameSlices nameSlices)
+        {
+            if (nameTerm != string.Empty)
+                nameSlices.Add(nameTerm, _particleService.IsParticle(nameTerm));
         }
 
         private string[] GetNameTerms(string nameToDivide) =>
