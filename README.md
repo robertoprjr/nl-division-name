@@ -3,6 +3,7 @@
 ## API com modelo para divisão de nomes
 
 Entrada esperada: Nome Completo de uma Pessoa
+
 Saída esperada: Nome da Pessoa dividido em:
 - Primeiro Nome (*FirstName*)
 - Nome do Meio (*MiddleName*)
@@ -99,4 +100,4 @@ public class SecondLastNameForAllPlusDivisionHandler: NameDivisionHandler
 
 - **OCP** Aberto para extensão, fechado para alteração: Como já inclusive citado na definição dos patterns, a separação das regras e a cadeia passo por passo da regra de definição de nomes faz com que qualquer regra nova criada não precisa alterar em nada a codificação das atuais ou, uma regra que precise ser alterada, somente impacta nela e em nenhuma outra
 
-Obs: As outras questões de **SOLID** também foram seguidas mas essas merecem destaque
+*Obs: As outras questões de **SOLID** também foram seguidas mas essas merecem destaque.*
