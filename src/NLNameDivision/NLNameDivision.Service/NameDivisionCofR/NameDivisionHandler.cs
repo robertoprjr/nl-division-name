@@ -17,20 +17,16 @@ namespace NLNameDivision.Service.NameDivisionCofR
         public virtual NameParts Handle(NameParts nameParts)
         {
             var namePartsDefined = DefineDivision(nameParts);
-
-            if (CheckIsAllDefinedDivision(namePartsDefined))
-                return namePartsDefined;
-            
-            return _nextHandler?.Handle(namePartsDefined);
+            return CheckIsAllDefinedDivision(namePartsDefined) ? namePartsDefined : _nextHandler?.Handle(namePartsDefined);
         }
 
-        public virtual NameParts DefineDivision(NameParts nameParts)
+        protected virtual NameParts DefineDivision(NameParts nameParts)
         {
             nameParts.SetAllUndefined();
             return nameParts;
         }
 
-        private bool CheckIsAllDefinedDivision(NameParts namePartsDefined) =>
+        private static bool CheckIsAllDefinedDivision(NameParts namePartsDefined) =>
             namePartsDefined.IsAllDefined();
     }
 }

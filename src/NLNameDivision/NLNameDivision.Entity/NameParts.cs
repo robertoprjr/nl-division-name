@@ -14,7 +14,7 @@ namespace NLNameDivision.Entity
         public List<NamePart> Parts { get; private set; }
         public NameParts() => Start();
 
-        public void Start()
+        private void Start()
         {
             StartCounter();
             ClearPositionDictionary();

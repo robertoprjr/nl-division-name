@@ -29,7 +29,7 @@ namespace NLNameDivision.Service
             return _particleListLoaded;
         }
 
-        private bool IsParticleListUnloaded() => (_particleListLoaded == default);
+        private static bool IsParticleListUnloaded() => (_particleListLoaded == default);
 
         private void LoadParticleList() =>
             _particleListLoaded = SplitParticleListConfigValue(GetParticleListConfigValue()).ToList();
@@ -38,7 +38,7 @@ namespace NLNameDivision.Service
             _configuration.GetSection(ParticleConstant.ListEnvironmentVariable).Value ??
             ParticleConstant.ListDefault;
 
-        private string[] SplitParticleListConfigValue(string particleConfigValue) =>
+        private static IEnumerable<string> SplitParticleListConfigValue(string particleConfigValue) =>
             particleConfigValue.Split(ParticleConstant.ListSplitChar);
     }
 }

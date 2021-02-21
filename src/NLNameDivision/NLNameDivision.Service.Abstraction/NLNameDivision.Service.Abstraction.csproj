@@ -10,4 +10,8 @@
       <ProjectReference Include="..\NLNameDivision.Entity\NLNameDivision.Entity.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="IDefaultService.cs" />
+    </ItemGroup>
+
 </Project>

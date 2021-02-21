@@ -6,7 +6,7 @@ namespace NLNameDivision.Service.NameDivisionCofR.Handler
 {
     public class AddAlternativeFirstLastNameDivisionHandler: NameDivisionHandler
     {
-        public override NameParts DefineDivision(NameParts nameParts)
+        protected override NameParts DefineDivision(NameParts nameParts)
         {
             nameParts.Add(NameDivisionConstant.AlternativeNotDefinedName);
             return nameParts;

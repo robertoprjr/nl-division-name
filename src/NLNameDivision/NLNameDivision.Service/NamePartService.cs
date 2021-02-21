@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using NLNameDivision.Constant;
@@ -31,7 +32,7 @@ namespace NLNameDivision.Service
             return nameParts;
         }
 
-        private void SetPartBySlice(NameParts nameParts, NameSlice nameSlice)
+        private static void SetPartBySlice(NameParts nameParts, NameSlice nameSlice)
         {
             if (nameSlice.IsParticle)
                 nameParts.SetParticle(nameSlice.Value);
@@ -46,12 +47,18 @@ namespace NLNameDivision.Service
             var nameTerms = GetNameTerms(nameToDivide);
             
             foreach (var nameTerm in nameTerms)
-                nameSlices.Add(nameTerm, _particleService.IsParticle(nameTerm));
+                AddSlice(nameTerm.Trim(), nameSlices);
             
             return nameSlices;
         }
 
-        private string[] GetNameTerms(string nameToDivide) =>
+        private void AddSlice(string nameTerm, NameSlices nameSlices)
+        {
+            if (nameTerm != string.Empty)
+                nameSlices.Add(nameTerm, _particleService.IsParticle(nameTerm));
+        }
+
+        private static IEnumerable<string> GetNameTerms(string nameToDivide) =>
             nameToDivide.Split(NameDivisionConstant.SplitChar);
     }
 }

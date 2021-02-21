@@ -33,7 +33,6 @@ namespace NLNameDivision.WebApi
         
         public void ConfigureBusinessServices(IServiceCollection services)
         {
-            services.TryAddScoped<IDefaultService, DefaultService>();
             services.TryAddScoped<IParticleService, ParticleService>();
             services.TryAddScoped<INamePartService, NamePartService>();
             services.TryAddScoped<INameDivisionService, NameDivisionService>();

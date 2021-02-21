@@ -5,7 +5,7 @@ namespace NLNameDivision.Service.NameDivisionCofR.Handler
 {
     public class SecondLastNameForAllPlusDivisionHandler: NameDivisionHandler
     {
-        public override NameParts DefineDivision(NameParts nameParts)
+        protected override NameParts DefineDivision(NameParts nameParts)
         {
             nameParts.SetDefinitionForAllUndefined(NameDivisionTypeEnum.SecondLastName);
             return nameParts;

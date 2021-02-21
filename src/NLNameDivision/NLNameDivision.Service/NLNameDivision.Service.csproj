@@ -18,6 +18,7 @@
     <ItemGroup>
       <Compile Remove="Mapper\NameSliceMapper.cs" />
       <Compile Remove="NameDivisionCofR\Rule\NameRule.cs" />
+      <Compile Remove="DefaultService.cs" />
     </ItemGroup>
 
 </Project>
