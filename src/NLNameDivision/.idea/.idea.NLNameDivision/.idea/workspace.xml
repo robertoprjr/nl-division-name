@@ -23,8 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc0debd-bc71-429d-9d14-3c643ecc59a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/NameStructured.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NameStructured.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Constant/NLNameDivision.Constant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Constant/NLNameDivision.Constant.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/NLNameDivision.Cross.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/NLNameDivision.Cross.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/NLNameDivision.Entity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NLNameDivision.Entity.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NLNameDivision.Service.Abstraction.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NLNameDivision.Service.Abstraction.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NLNameDivision.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NLNameDivision.Service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.WebApi/NLNameDivision.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.WebApi/NLNameDivision.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,68 +43,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45B80AE8-5287-4889-B763-035D637BFDDC/C/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/NameRule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/DefaultController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NLNameDivision.Constant/GeneralConstant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///usr/share/dotnet/sdk/5.0.103/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.targets" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45B80AE8-5287-4889-B763-035D637BFDDC/C/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLNameDivision.Service.Abstraction/IDefaultService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NLNameDivision.Constant/GeneralConstant.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSliceDto.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartsDto.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameSlicesDto.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/Struct/NameSliceStruct.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameSlices.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameSliceMapperProfile.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NamePartService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NameDivisionCofR/INameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NameDivisionTypeEnum.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/LastFirstNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NamePart.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NamePartDto.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Constant/Enum/NamePositionEnum.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/AddPointNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/AddAlternativeNotDefinedNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Constant/NameDivisionConstant.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/AddAlternativeFirstLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/FirstNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/MiddleNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/SecondLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/SecondLastNameForAllPlusDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/AddAlternativeFirstLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/FirstNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/MiddleNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/RuleHandler/SecondLastNameForAllPlusDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameParts.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/AddAlternativeFirstLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRulesFactory.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/FirstLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/FirstNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/MiddleNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/SecondLastNameDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Handler/SecondLastNameForAllPlusDivisionHandler.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/OneNameRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/NameRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/OneNameDivisionRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NameDivisionCofR/INameDivisionRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/TwoNameDivisionRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/ThreeNameDivisionRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/FourNameDivisionRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/Rule/PlusNameDivisionRule.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionCofR/NameDivisionRuleFactory.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/DTO/NameStructuredDto.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Cross/MapperProfile/NameStructuredMapperProfile.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/INameDivisionService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Service/NameDivisionService.cs" />
-        <option value="$PROJECT_DIR$/NLNameDivision.Entity/NameStructured.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" />
+      <option value="$PROJECT_DIR$/NLNameDivision.WebApi/NLNameDivision.WebApi.csproj" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1jf0o48snvV1xhuewo9epWTmdBU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -109,6 +66,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29975826" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -160,7 +118,11 @@
       <workItem from="1605660010633" duration="9412000" />
       <workItem from="1605916075563" duration="9739000" />
       <workItem from="1606142291613" duration="1838000" />
-      <workItem from="1606167971365" duration="18336000" />
+      <workItem from="1606167971365" duration="19061000" />
+      <workItem from="1608079933556" duration="599000" />
+      <workItem from="1612515631313" duration="891000" />
+      <workItem from="1613604587948" duration="185000" />
+      <workItem from="1613915775185" duration="1370000" />
     </task>
     <servers />
   </component>
@@ -184,120 +146,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="465" y="143" key="#xdebugger.evaluate" timestamp="1604243137618">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state x="465" y="143" key="#xdebugger.evaluate/48.27.1318.741@48.27.1318.741" timestamp="1604243137618" />
-    <state width="531" height="500" key="DebuggerActiveHint" timestamp="1606173044536">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="531" height="500" key="DebuggerActiveHint/48.27.1318.741@48.27.1318.741" timestamp="1606173044536" />
-    <state x="490" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604273049189">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state x="490" y="155" width="424" height="491" key="FileChooserDialogImpl/48.27.1318.741@48.27.1318.741" timestamp="1604273049189" />
-    <state width="1272" height="232" key="GridCell.Tab.0.bottom" timestamp="1606237564950">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.bottom/48.27.1318.741@48.27.1318.741" timestamp="1606237564950" />
-    <state width="1272" height="232" key="GridCell.Tab.0.center" timestamp="1606237564950">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.center/48.27.1318.741@48.27.1318.741" timestamp="1606237564950" />
-    <state width="1272" height="232" key="GridCell.Tab.0.left" timestamp="1606237564949">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.left/48.27.1318.741@48.27.1318.741" timestamp="1606237564949" />
-    <state width="1272" height="232" key="GridCell.Tab.0.right" timestamp="1606237564950">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="232" key="GridCell.Tab.0.right/48.27.1318.741@48.27.1318.741" timestamp="1606237564950" />
-    <state width="1272" height="242" key="GridCell.Tab.1.bottom" timestamp="1606237561753">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.1.bottom/48.27.1318.741@48.27.1318.741" timestamp="1606237561753" />
-    <state width="1272" height="242" key="GridCell.Tab.1.center" timestamp="1606237561752">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.1.center/48.27.1318.741@48.27.1318.741" timestamp="1606237561752" />
-    <state width="1272" height="242" key="GridCell.Tab.1.left" timestamp="1606237561752">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.1.left/48.27.1318.741@48.27.1318.741" timestamp="1606237561752" />
-    <state width="1272" height="242" key="GridCell.Tab.1.right" timestamp="1606237561752">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.1.right/48.27.1318.741@48.27.1318.741" timestamp="1606237561752" />
-    <state width="1272" height="242" key="GridCell.Tab.2.bottom" timestamp="1606237561753">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.2.bottom/48.27.1318.741@48.27.1318.741" timestamp="1606237561753" />
-    <state width="1272" height="242" key="GridCell.Tab.2.center" timestamp="1606237561753">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.2.center/48.27.1318.741@48.27.1318.741" timestamp="1606237561753" />
-    <state width="1272" height="242" key="GridCell.Tab.2.left" timestamp="1606237561753">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.2.left/48.27.1318.741@48.27.1318.741" timestamp="1606237561753" />
-    <state width="1272" height="242" key="GridCell.Tab.2.right" timestamp="1606237561753">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.2.right/48.27.1318.741@48.27.1318.741" timestamp="1606237561753" />
-    <state width="1272" height="242" key="GridCell.Tab.3.bottom" timestamp="1606237561754">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.3.bottom/48.27.1318.741@48.27.1318.741" timestamp="1606237561754" />
-    <state width="1272" height="242" key="GridCell.Tab.3.center" timestamp="1606237561754">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.3.center/48.27.1318.741@48.27.1318.741" timestamp="1606237561754" />
-    <state width="1272" height="242" key="GridCell.Tab.3.left" timestamp="1606237561753">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.3.left/48.27.1318.741@48.27.1318.741" timestamp="1606237561753" />
-    <state width="1272" height="242" key="GridCell.Tab.3.right" timestamp="1606237561754">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.3.right/48.27.1318.741@48.27.1318.741" timestamp="1606237561754" />
-    <state width="1272" height="242" key="GridCell.Tab.4.bottom" timestamp="1606237561755">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.4.bottom/48.27.1318.741@48.27.1318.741" timestamp="1606237561755" />
-    <state width="1272" height="242" key="GridCell.Tab.4.center" timestamp="1606237561755">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.4.center/48.27.1318.741@48.27.1318.741" timestamp="1606237561755" />
-    <state width="1272" height="242" key="GridCell.Tab.4.left" timestamp="1606237561755">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.4.left/48.27.1318.741@48.27.1318.741" timestamp="1606237561755" />
-    <state width="1272" height="242" key="GridCell.Tab.4.right" timestamp="1606237561755">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="1272" height="242" key="GridCell.Tab.4.right/48.27.1318.741@48.27.1318.741" timestamp="1606237561755" />
-    <state x="302" y="132" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1604273132774">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state x="302" y="132" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/48.27.1318.741@48.27.1318.741" timestamp="1604273132773" />
-    <state x="427" y="79" width="549" height="643" key="RiderGenerateDialog" timestamp="1605823827276">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state x="427" y="79" width="549" height="643" key="RiderGenerateDialog/48.27.1318.741@48.27.1318.741" timestamp="1605823827275" />
-    <state x="196" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1604209287902">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state x="196" y="31" width="1022" height="737" key="SettingsEditor/48.27.1318.741@48.27.1318.741" timestamp="1604209287902" />
-    <state width="659" height="370" key="XDebugger.FullValuePopup" timestamp="1604191198394">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state width="659" height="370" key="XDebugger.FullValuePopup/48.27.1318.741@48.27.1318.741" timestamp="1604191198394" />
-    <state x="370" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606173155982">
-      <screen x="48" y="27" width="1318" height="741" />
-    </state>
-    <state x="370" y="89" width="672" height="678" key="search.everywhere.popup/48.27.1318.741@48.27.1318.741" timestamp="1606173155982" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -313,19 +161,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/NLNameDivision.WebApi/Controllers/NameDivisionController.cs" initialLine="50">
-            <startOffsets>
-              <option value="1621" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1681" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

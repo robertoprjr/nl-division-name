@@ -2,10 +2,10 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.Hosting;
 using NLNameDivision.Constant;
 using NLNameDivision.Service.Abstraction;
 using NLNameDivision.Service;
@@ -24,7 +24,7 @@ namespace NLNameDivision.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddControllers();
             services.AddSwaggerGen();
             
             ConfigureBusinessServices(services);
@@ -40,18 +40,22 @@ namespace NLNameDivision.WebApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
 
+            app.UseStaticFiles();
+            app.UseRouting();
+            app.UseCors();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+            
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
@@ -60,7 +64,6 @@ namespace NLNameDivision.WebApi
             });
             
             app.UseHttpsRedirection();
-            app.UseMvc();
         }
     }
 }
