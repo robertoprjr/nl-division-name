@@ -23,16 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc0debd-bc71-429d-9d14-3c643ecc59a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Constant/NLNameDivision.Constant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Constant/NLNameDivision.Constant.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Cross/NLNameDivision.Cross.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Cross/NLNameDivision.Cross.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Entity/NLNameDivision.Entity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Entity/NLNameDivision.Entity.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NLNameDivision.Service.Abstraction.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service.Abstraction/NLNameDivision.Service.Abstraction.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.Service/NLNameDivision.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.Service/NLNameDivision.Service.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.WebApi/NLNameDivision.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.WebApi/NLNameDivision.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLNameDivision.WebApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NLNameDivision/riderModule.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +62,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34993446" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29947576" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971797" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29975826" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -122,7 +122,7 @@
       <workItem from="1608079933556" duration="599000" />
       <workItem from="1612515631313" duration="891000" />
       <workItem from="1613604587948" duration="185000" />
-      <workItem from="1613915775185" duration="1370000" />
+      <workItem from="1613915775185" duration="2347000" />
     </task>
     <servers />
   </component>

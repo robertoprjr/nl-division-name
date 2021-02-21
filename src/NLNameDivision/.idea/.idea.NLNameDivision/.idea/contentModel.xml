@@ -4,16 +4,16 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_NLNameDivision.-1511865560.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-    <e p="C:\DEV\OUTROS\nl-division-name\src\NLNameDivision" t="IncludeFlat">
       <e p="NLNameDivision.Constant" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
         <e p="Enum" t="Include">
           <e p="NameDivisionTypeEnum.cs" t="Include" />
           <e p="NamePositionEnum.cs" t="Include" />
         </e>
         <e p="GeneralConstant.cs" t="Include" />
-        <e p="NameDivisionConstant.cs" t="Include" />
         <e p="NLNameDivision.Constant.csproj" t="IncludeRecursive" />
+        <e p="NameDivisionConstant.cs" t="Include" />
+        <e p="ParticleConstant.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -21,10 +21,8 @@
             </e>
           </e>
         </e>
-        <e p="ParticleConstant.cs" t="Include" />
       </e>
       <e p="NLNameDivision.Cross" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
         <e p="DTO" t="Include">
           <e p="NamePartDto.cs" t="Include" />
           <e p="NamePartsDto.cs" t="Include" />
@@ -40,6 +38,7 @@
           <e p="NameStructuredMapperProfile.cs" t="Include" />
         </e>
         <e p="NLNameDivision.Cross.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -49,13 +48,13 @@
         </e>
       </e>
       <e p="NLNameDivision.Entity" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
+        <e p="NLNameDivision.Entity.csproj" t="IncludeRecursive" />
         <e p="NamePart.cs" t="Include" />
         <e p="NameParts.cs" t="Include" />
         <e p="NameSlice.cs" t="Include" />
         <e p="NameSlices.cs" t="Include" />
         <e p="NameStructured.cs" t="Include" />
-        <e p="NLNameDivision.Entity.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -65,7 +64,7 @@
         </e>
       </e>
       <e p="NLNameDivision.Service" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
+        <e p="NLNameDivision.Service.csproj" t="IncludeRecursive" />
         <e p="NameDivisionCofR" t="Include">
           <e p="Handler" t="Include">
             <e p="AddAlternativeFirstLastNameDivisionHandler.cs" t="Include" />
@@ -87,7 +86,8 @@
         </e>
         <e p="NameDivisionService.cs" t="Include" />
         <e p="NamePartService.cs" t="Include" />
-        <e p="NLNameDivision.Service.csproj" t="IncludeRecursive" />
+        <e p="ParticleService.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -95,18 +95,17 @@
             </e>
           </e>
         </e>
-        <e p="ParticleService.cs" t="Include" />
       </e>
       <e p="NLNameDivision.Service.Abstraction" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
         <e p="INameDivisionService.cs" t="Include" />
         <e p="INamePartService.cs" t="Include" />
         <e p="IParticleService.cs" t="Include" />
+        <e p="NLNameDivision.Service.Abstraction.csproj" t="IncludeRecursive" />
         <e p="NameDivisionCofR" t="Include">
           <e p="INameDivisionHandler.cs" t="Include" />
           <e p="INameDivisionRule.cs" t="Include" />
         </e>
-        <e p="NLNameDivision.Service.Abstraction.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -115,15 +114,19 @@
           </e>
         </e>
       </e>
-      <e p="NLNameDivision.sln" t="IncludeFlat" />
       <e p="NLNameDivision.WebApi" t="IncludeRecursive">
-        <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="NameDivisionController.cs" t="Include" />
         </e>
         <e p="NLNameDivision.WebApi.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -131,16 +134,9 @@
             </e>
           </e>
         </e>
-        <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="launchSettings.json" t="Include" />
-        </e>
-        <e p="Startup.cs" t="Include" />
       </e>
+      <e p="NLNameDivision.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\roberto.rodrigues\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\roberto.rodrigues\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_NLNameDivision.1154260006.00" t="ExcludeRecursive" />
-    <e p="C:\Users\roberto.rodrigues\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
   </component>
 </project>
