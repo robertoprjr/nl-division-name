@@ -101,3 +101,8 @@ public class SecondLastNameForAllPlusDivisionHandler: NameDivisionHandler
 - **OCP** Aberto para extensão, fechado para alteração: Como já inclusive citado na definição dos patterns, a separação das regras e a cadeia passo por passo da regra de definição de nomes faz com que qualquer regra nova criada não precisa alterar em nada a codificação das atuais ou, uma regra que precise ser alterada, somente impacta nela e em nenhuma outra
 
 *Obs: As outras questões de **SOLID** também foram seguidas mas essas merecem destaque.*
+
+## Updates
+
+- 2021-02-21 - Update para .net 5.0
+- 2021-05-09 - Configurações para o vscode
